@@ -1,0 +1,162 @@
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color:  #990033;
+}
+
+ul.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+ul.nav{
+	margin-top:10px;
+}
+
+.h1_jumbo{
+	font-size:44px !important;
+}
+
+body{
+	background-color:white;
+		background-image:url('../img/bg8.gif');
+		background-attachment: fixed
+}
+
+.header{
+	/*background-color:#EEEEEE;	*/
+	padding-top:15px;
+	border-radius:5px;
+	border:none;
+}
+
+.header h3{
+
+}
+
+.img_logo{
+	padding-left:0px;
+	padding-top: 15px;
+	float: left;
+}
+
+.jumbotron{
+	margin-top: 100px;
+	background:transparent;
+	border-top:1px solid #e5e5e5;
+	border-radius:0px !important; 
+	background-image:url('../img/bg4.jpg');
+	border-top:1px solid #990033;
+	/*border-bottom:1px dashed #990033;*/
+}
+
+
+
+
+.jumbotron-oferta, .jumbotron-galeria, .jumbotron-kontakt{
+	margin-top: 30px;
+	background:transparent;
+	border-top:1px solid #e5e5e5;
+	border-radius:0px !important; 
+	background-image:none;
+	border-top:1px solid #990033;
+	/*border-bottom:1px dashed #990033;*/
+	height: 5px;
+display: block;
+width: 100%;
+float: left;
+margin-bottom: 30px;
+}
+
+
+ul.nav {
+    text-transform: uppercase;
+	border: 1px solid #CCCCCC;
+	border-radius:4px;
+}
+
+.container{
+	padding: 25px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	background:rgba(0,0,0,0.1);
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+-webkit-box-shadow: -1px 4px 24px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 24px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 24px -2px rgba(0,0,0,0.75);
+}
+
+
+
+.marketing {
+	
+	margin-bottom:30px;
+	
+}
+
+.marketing2 {
+	
+	margin-bottom:40px;
+	
+}
+
+.marketing p{
+	
+	font-size:11pt;
+	
+}
+
+
+
+
+
+
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #777;
+}
+
+
+.footer a{
+	color: #990033;
+}
+
+    .google-maps {
+        position: relative;
+        padding-bottom: 250px; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+	
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+		height: 250px;
+        width: 100% !important;
+        /*height: 100% !important;*/
+
+    }
+	
+ul.oferta_lista{
+	list-style-type: square;
+	margin:0px;
+	padding-left:15px;
+}
+
+
+
+
+@media all and (min-width:0px) and (max-width:740px) {
+  .jumbotron {
+    margin-top:140px;
+  }
+}
+
+@media all and (min-width:0px) and (max-width:535px) {
+  .jumbotron {
+    margin-top:200px;
+  }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favi1.png">
+
+    <title>Powierzchnie magazynowe, reklamowe, sklepowe - Młoszowa, Trzebinia, Krzeszowice, Olkusz | MMLokale.pl  </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+	
+	<link href="css/custom_style.css" rel="stylesheet">
+	
+	
+	
+	<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="magnific-popup/magnific-popup.js"></script>
+	
+	
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  
+	<div class="container-max">
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted"><a href="index.html"><img src="img/logo_mmlokale_przezroczyste.png" class="img_logo"></a></h3>
+		<nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="index.html">Strona główna</a></li>
+            <li role="presentation"><a href="oferta.html">Oferta</a></li>
+			<li role="presentation" class="active"><a href="galeria.html">Galeria</a></li>
+            <li role="presentation"><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </nav>
+        
+      </div>
+
+      <div class="jumbotron-galeria">
+		
+      </div>
+
+      <div class="row marketing">
+        
+
+		
+		<div class="col-md-12">
+          <div style="margin-bottom:40px;font-size: 11pt;">
+				Przykładowe zdjęcia nieruchomości i lokali w naszej ofercie:<br/> 
+		  </div>
+<div class="popup-gallery">
+	<a href="img/lokale/1.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/1.JPG" height="105" width="125"></a>
+	<a href="img/lokale/2.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/2.JPG" height="105" width="125"></a>
+	<a href="img/lokale/3.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/3.JPG" height="105" width="125"></a>
+	<a href="img/lokale/4.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/4.JPG" height="105" width="125"></a>
+	<a href="img/lokale/5.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/5.JPG" height="105" width="125"></a>
+	<a href="img/lokale/6.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/6.JPG" height="105" width="125"></a>
+	<a href="img/lokale/7.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/7.JPG" height="105" width="125"></a>
+	<a href="img/lokale/8.JPG" title="Chrzanów ul.Trzebińska 56"><img src="img/lokale/8.JPG" height="105" width="125"></a>
+	<a href="img/lokale/9.JPG" title="Krzeszowice ul.Kościuszki 51"><img src="img/lokale/9.JPG" height="105" width="125"></a>
+	<a href="img/lokale/10.JPG" title="Krzeszowice ul.Kościuszki 51"><img src="img/lokale/10.JPG" height="105" width="125"></a>
+	<a href="img/lokale/11.JPG" title="Krzeszowice ul.Kościuszki 51"><img src="img/lokale/11.JPG" height="105" width="125"></a>
+</div>
+
+        </div>
+
+
+      </div>
+
+      <footer class="footer">
+        <p>
+		
+		&copy; Copyright by Konetiko - <a href="http://konetiko.pl" target="_blank">tworzenie stron www</a> ,
+		
+		<script>
+			var data = new Date();
+			var rok = data.getFullYear();
+			document.write(rok);	
+		</script>
+		
+		</p>
+      </footer>
+
+    </div> <!-- /container -->
+	
+	</div>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+		$('.popup-gallery').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+				}
+			}
+		});
+	});
+	</script>
+	
+  </body>
+</html>
